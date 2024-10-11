@@ -114,8 +114,8 @@ global.moment = moment
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
 ["51926933818", '𝗬𝗮𝗹𝗹𝗶𝗰𝗼 ⚡', 1], 
-["393293555934", '𝗕𝗲𝘁𝘀𝘅𝘅.𝗹𝘇 ❤️', 1],  
-["393293555934", '𝗕𝗲𝘁𝘀𝘅𝘅.𝗹𝘇 𝗕𝗼𝘁 ❤️', 1]]
+["51963313750", '𝗡𝗘𝗧𝗛𝗥𝗢 𝙓 ♦️', 1],  
+["5493853052068", '𝗡𝗘𝗧𝗛𝗥𝗢 𝗕𝗼𝘁 𝙓', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -123,7 +123,7 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = `╭ 𝗕𝗲𝘁𝘀𝘅𝘅.𝗹𝘇 𝗕𝗼𝘁 ❤️\n┃\n┃ » Fb:\n┃ Yallico J-j\n┃\n┃ » WhatsApp:\n┃ +51926933818\n┃\n┃ » Ig:\n┃ @yallico.owner\n╰━━━━━━━━•` //"𝘽𝙚𝙩𝙨𝙭𝙭.𝙡𝙯 𝘽𝙤𝙩 ❤️︎"
+global.packname = `╭ 𝗡𝗘𝗧𝗛𝗥𝗢 𝙓 ♦️\n┃\n┃ » WhatsApp :\n┃ +51 963 313 750 \n┃\n┃ » Yt :\n┃ @nethrogaming \n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @nethro.gaming\n╰━━━━━━━━•` //"𝗡𝗘𝗧𝗛𝗥𝗢 𝙓 ♦️"
 global.author = ` ╭ 𝗬𝗮𝗹𝗹𝗶𝗰𝗼 𝗗𝗶𝗼𝘀 ✓\n ┃\n ┃ » Fb:\n ┃ YallicoJ-j\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Apoyo\n ┃ » Paypal:\n ┃ @YallicoPe\n ╰━━━━━━━━•` //"𝙔𝙖𝙡𝙡𝙞𝙘𝙤 𝘿𝙞𝙤𝙨"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -132,7 +132,7 @@ global.author = ` ╭ 𝗬𝗮𝗹𝗹𝗶𝗰𝗼 𝗗𝗶𝗼𝘀 ✓\n ┃\n 
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "2"
 global.vsJB = "3.0"
-global.gt = "𝘽𝙚𝙩𝙨𝙭𝙭.𝙡𝙯 𝘽𝙤𝙩 ❤️︎"
+global.gt = "𝗡𝗘𝗧𝗛𝗥𝗢 𝗕𝗼𝘁 𝙓︎"
 
 fetchDataAndProcess().catch(error => console.error('Ocurrió un error:', error))
 
@@ -160,9 +160,9 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝘽𝙚𝙩𝙨𝙭𝙭.𝙡𝙯 𝘽𝙤𝙩 ❤️︎ : 𝙔𝙖𝙡𝙡𝙞𝙘𝙤 𝘿𝙞𝙤𝙨"
-global.igfg = "𝘽𝙚𝙩𝙨𝙭𝙭.𝙡𝙯 𝘽𝙤𝙩 ❤️︎"
-global.nomorown = "51926933818"
+global.wm = "𝗡𝗘𝗧𝗛𝗥𝗢 𝗕𝗼𝘁 𝙓"
+global.igfg = "𝗡𝗘𝗧𝗛𝗥𝗢 𝗕𝗼𝘁 𝙓︎"
+global.nomorown = "5493853052068"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
