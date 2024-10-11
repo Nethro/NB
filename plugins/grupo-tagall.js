@@ -14,11 +14,11 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
 function pickRandom(list) {
 return list[Math.floor(list.length * Math.random())]
 }
-  let teks = `╭─────────\n│❏ 𝘉𝘦𝘵𝘴𝘹𝘹.𝘭𝘻︎𝘛𝘦 𝘐𝘯𝘷𝘰𝘤𝘢 ❤️\n│❏ 𝘉𝘦𝘵𝘴𝘹𝘹.𝘭𝘻︎𝘓𝘰𝘷𝘦𝘳𝘴: *${participants.length}* ${oi}\n│❏ 𝘝𝘦𝘯𝘥𝘦𝘥𝘰𝘳: https://wa.link/5gjhg1\n│\n`;
+  let teks = `╭─────────\n│❏ 𝙉𝙚𝙩𝙝𝙧𝙤 𝘽𝙤𝙩 ♦️\n│❏ 𝙈𝙞𝙚𝙢𝙗𝙧𝙤𝙨 : *${participants.length}* ${oi}\n│❏ 𝙀𝙨 𝙃𝙤𝙧𝙖 𝘿𝙚 𝙅𝙪𝙜𝙖𝙧 🎮\n│\n`;
   for (const mem of participants) {
-    teks += `│${emot} @${mem.id.split('@')[0]}\n`;
+    teks += `│♦️ @${mem.id.split('@')[0]}\n`;
   }
-  teks += `│\n╰@𝘠𝘢𝘭𝘭𝘪𝘤𝘰.𝘖𝘸𝘯𝘦𝘳⚡︎`;
+  teks += `╰@𝙉𝙚𝙩𝙝𝙧𝙤.𝙂𝙖𝙢𝙞𝙣𝙜`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
